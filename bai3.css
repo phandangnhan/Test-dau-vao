@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(90, 19, 90);
+}
+
+
+.header_container{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.header_content{
+    color: #E5E5E5;
+    margin: 20px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.header_SignIn{
+    width: 199px;
+height: 40px;
+left: 60px;
+top: 433px;
+background-color: rgb(66, 19, 37);
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+input {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 0px;
+    transition: 0.8s ease;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+  }
+  input::placeholder {
+    color: white;
+  }
+
+.body_container{
+    display: flex;
+    margin: 70px;
+    justify-content: center;
+}
+
+.Text_container{
+    display: block;
+    margin: 40px;
+}
+
+.Text_content{
+    font-size: 60px;
+    color: white;
+}
+
+h4{
+    color: white;
+    font-size: 16px;
+}
+
+h3{
+    color: white;
+}
+
+.img_container{
+    margin: 40px;
+    display: block;
+    width: 404px;
+    height: 494px;
+    left: 551px;
+    top: 125px;
+    background: #30384D;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_body{
+    width: 357px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    margin: 23px;
+    
+}
+
+.img_information{
+    display: block;
+
+    margin:0px
+
+}
+
+
+.img_name{
+    margin-top: 5px;
+    margin-left: 23px;
+    font-size: 16px;
+    color: white;
+}
+
+.Discovernow{
+    background-color: rgb(66, 19, 37);
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 400px;
+}
+
+.Text_information{
+    display: flex;
+}
+
+.information{
+    display: block;
+    margin: 30px;
+}
+
+.information_title{
+    font-size: 36px;
+    color: white;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+ h6{
+     margin: 0;
+    color: white;
+ }
+.information_p{
+    margin: 0px;
+    font-size: 16px;
+    color: white;
+}
+
+.img_information_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: top 15px;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 400px;
+    
+}
+
+.logo{
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    max-width: 100px;
+}
+
+.logo_container{
+    margin: 20px;
+}
+
+
+a {
+    color: whitesmoke;
+    text-align: center;
+    width: 60px;
+    font-size: 16px;
+  }
+  
+  .box:hover input {
+    width: 200px;
+    margin: 0 20px;
+    border-bottom: 2px solid red;
+  }
+  
+  input:focus {
+    width: 200px;
+    margin: 0 20px;
+    border-bottom: 2px solid red;
+  }
+  .box {
+    height: 60px;
+    background-color: darkcyan;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
